@@ -1,0 +1,408 @@
+.header {    float: left;
+    width: 100%;
+   
+    color: white;
+    text-align: center;
+    color: white;
+    
+}
+.menu li{
+display:inline;
+margin: 0em 3em 0em 3em;
+text-transform: uppercase;
+ font-family: "Open Sans", sans-serif;
+  font-size:15px;
+  font-weight:400;
+}
+ 
+ 
+.herosection { 
+    float: left;
+    width: 100%;
+    
+    color: white;
+    text-align: center;
+padding:3em 0em 3em 0em; }
+   
+.herosection h2{  font-family: "Rochester", cursive;font-weight:400;font-size:10em;}
+
+.herosection p{font-family: "Open Sans", sans-serif;
+  font-size:24px;
+  font-weight:400;}
+  
+  
+  .header_combined {
+  float: left;
+  width: 100%;
+   background:linear-gradient(to bottom,rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100%), url('../image/bg.jpg') no-repeat;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;}
+  
+ .body {
+	padding: 0 auto;
+	margin: 0 auto;
+}
+
+.specials_section {
+    float: left;
+    width: 100%;
+    background: white;
+    padding: 3em 0em 3em 0em;
+}
+.specials_section h3 {
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.pagecenter {
+    float: none;
+    width: 100%;
+    margin: auto;
+    max-width: 90%;
+}
+
+.specials1 {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+.specials2 {
+	float: left;
+	width: 33.3%;
+	text-align: center;
+}
+.specials3 {
+  float: right;
+  width: 31%;
+  text-align: center;
+}
+
+.specials1 h4,.specials2 h4,.specials3 h4{ font-family: "Raleway", sans-serif;
+  font-size: 24px;
+  font-weight: 400;}
+  
+  .specials1 img ,  .specials2 img,  .specials3 img{
+  width: 75%;
+}
+.specials1 p {
+	font-size: 14px;
+	color: #777;
+	font-weight: 400;
+	line-height: 1.5;
+	font-family: "Open Sans", sans-serif;
+	margin: 0em 4em 0em 4em;
+}
+.specials2 p {
+	font-size: 14px;
+	color: #777;
+	font-weight: 400;
+	line-height: 1.5;
+	font-family: "Open Sans", sans-serif;
+	margin: 0em 4em 0em 4em;
+}
+ .specials3 p {
+	font-size: 14px;
+	color: #777;
+	font-weight: 400;
+	line-height: 1.5;
+	font-family: "Open Sans", sans-serif;
+	margin: 0em 4em 0em 4em;
+}
+
+
+
+
+
+.story_section {
+  float: left;
+  width: 100%;
+  background: white;
+  margin: 1em 0em 1em 0em;
+}
+
+.story_section1 {
+	float: left;
+	width: 50%;
+	background-image: url('../image/gallery-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 500px;
+}
+.story_section2 {
+	float: right;
+	width: 40%;
+	padding: 3em 2em 3em 4em;
+	
+}
+.story_section2 h3 {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-family: opensans;
+	font-weight: 200;
+}
+
+.team {
+    float: left;
+    width: 100%;
+    background: white;
+    margin: 1em 0em 1em 0em;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+	padding: 120px 0;
+}
+
+
+.team h3 {
+    font-size: 38px;
+    font-weight: 400;
+}
+.team_section1 {
+    float: left;
+    width: 40%;
+    margin: 1em 0em 1em 0em;
+}
+
+.team_section h3 {
+    float: left;
+    width: 100%;
+    font-size: 38px;
+    font-family: 'Raleway';
+}
+.team_section1 {
+    float: left;
+    width: 50%;
+    padding: 1em 0em 1em 0em;
+}
+.team_section1 {
+	float: left;
+	width: 50%;
+	font-weight: 15;
+	font-family: open sans-serif;
+}
+.team_section2 {
+	float: right;
+	width: 50%;
+	background-image: url(../image/chef.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	height: 450px;
+	
+
+
+
+
+
+
+	
+}
+.gallery {
+  float: left;
+  width: 100%;
+}
+.gallery img {
+  width: 24%;
+}
+.gallery li {
+  display: inline;
+}
+.reservtions {
+	float: left;
+	width: 100%;
+	background: black;
+	color: white;
+ 
+
+}
+.reservation1 {
+	float: left;
+	width: 33.3%;
+}
+
+
+.reservation2 {
+	float: left;
+	width: 33.3%;
+
+}
+.reservation3 {
+	float: right;
+	width: 33.3%;
+}
+.reservation1 h3 {
+	font-size: 20px;
+	font-family: open sans;
+	text-align: center;
+
+}
+.reservation2 h3 {
+	font-size: 20px;
+	font-family: open sans;
+	text-align: center;
+	font-weight: 300;
+}
+.reservation3 h3 {
+	font-size:20px;
+	font-family: open sans;
+	text-align: center;
+	font-weight: 300;
+}
+.reservations item {
+	text-align: center;
+	font-weight: 300;
+	font-family: raleway;
+	font-weight: 300;
+}
+
+
+.item {
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+	float: left;
+	width: 100%;
+	background: black;
+	color: gray;
+	padding: 3em 0em 3em 0em;
+}
+.copyright_left {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.menu_section {
+    float: left;
+    width: 100%;
+	font-family: open sans;
+}
+.menu_section_left {
+    float: left;
+    width: 50%;
+}
+.menu_section_left {
+    float: left;
+    width: 50%;
+}
+.menu_section_right {
+	float: right;
+	width: 45%;
+}
+.menu_section h3 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 200;
+}
+.menu_details {
+    float: left;
+    width: 100%;
+}
+.menu_name {
+	
+    float: left;
+    width: 75%;
+}
+.menu_price {
+    float: right;
+    width: 25%;
+}
+
+.menu_section_right h4 {
+	font-family: open sans;
+	font-size: 26px;
+	font-weight:200
+}
+.menu_section_left h4 {
+	font-family: open sans;
+	font-size: 26px;
+	font-weight:200
+}
+.menu_details h5 {
+  font-size: 18px;
+  font-weight: 192;
+}
+.menu_details p {
+  font-size: 18px;
+  font-weight: 192;
+}
+.menu_pricep {
+  font-size: 18px;
+  font-weight: 192;
+}
+
+.reservtions {
+	float: left;
+	width: 100%;
+	background: black;
+	color: white;
+ 
+
+}
+.reservation1 {
+	float: left;
+	width: 33.3%;
+}
+
+
+.reservation2 {
+	float: left;
+	width: 33.3%;
+
+}
+.reservation3 {
+	float: right;
+	width: 33.3%;
+}
+.reservation1 h3 {
+	font-size: 25px;
+	font-family: open sans;
+	text-align: center;
+
+}
+.reservation2 h3 {
+	font-size: 25px;
+	font-family: open sans;
+	text-align: center;
+	font-weight: 300;
+}
+.reservation3 h3 {
+	font-size:25px;
+	font-family: open sans;
+	text-align: center;
+	font-weight: 300;
+}
+.reservations item {
+	text-align: center;
+	font-weight: 300;
+	font-family: raleway;
+	font-weight: 300;
+}
+
+.copyright {
+	float: left;
+	width: 100%;
+	background: black;
+	color: gray;
+	padding: 3em 0em 3em 0em;
+}
+.copyright_left {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+.copyright_right {
+  text-align: right;
+}
